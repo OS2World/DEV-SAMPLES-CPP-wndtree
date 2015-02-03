@@ -1,0 +1,13 @@
+/* */
+call RxFuncAdd 'SysLoadFuncs', 'RexxUtil', 'SysLoadFuncs'
+call SysLoadFuncs
+say 'waiting 4 seconds...'
+call SysSleep 1
+say '3'
+call SysSleep 1
+say '2'
+call SysSleep 1
+say '1'
+call SysSleep 1
+
+wndtree
